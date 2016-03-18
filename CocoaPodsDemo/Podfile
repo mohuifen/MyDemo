@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod "Reachability",
+
+#pod install 时要用这句，否则会卡
+#pod install --verbose --no-repo-update

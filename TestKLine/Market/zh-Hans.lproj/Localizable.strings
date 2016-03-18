@@ -1,0 +1,700 @@
+/* 
+  Localizable.strings
+  BigHuobi
+
+  Created by kennyhuang on 15-4-8.
+  Copyright (c) 2015年 Huobi. All rights reserved.
+*/
+
+// SR 全称 String Resource
+
+"SR_IPHONE_REGISTER"            = "手机注册";
+"SR_MAIL_REGISTER"              = "邮箱注册";
+"SR_REGISTER_REGIN"             = "国家/地区";
+"SR_REGISTER_MAINLAND"          = "中国大陆";
+"SR_REGISTER_IPHONE"            = "手机号";
+"SR_REGISTER_VerifyCode"        = "验证码";
+"SR_REGISTER_PASSWORD"          = "登录密码";
+"SR_REGISTER_CONFIRM_PASSWORD"  = "确认密码";
+"SR_REGISTER_GETCODE"           = "点击获取";
+"SR_REGISTER_REACQUIRE"         = "秒后重新获取";
+"SR_REGISTER_USE_IPHONE"        = "使用手机注册";
+"SR_REGISTER_USE_EMAIL"         = "使用邮箱注册";
+"SR_REGISTER_MAIL_ADDRESS"      = "邮箱地址";
+"SR_REGISTER_USER_DETAIL"       = "火币用户协议";
+"SR_REGISTER_SUCCESSFULLY"      = "注册成功";
+"SR_DETAIL_AGREE"               = "点击“注册”按钮，即表示您同意";
+"SR_KEYBOARD_FINISH"            = "完成";
+"SR_REGISTER_INPUT_PASSWORD"    = "需要组合数字、字母或符号";
+"SR_REGISTER_INPUT_PASSWORD_AGAIN"  = "再次输入密码";
+"SR_REGISTER_REINPUT_PASSWORD"  = "两次输入密码不一致，请重新输入";
+"SR_REGISTER_INPUT_MAIL"        = "请输入邮箱";
+"SR_REGISTER_REINPUT_MAIL"      = "邮箱格式不正确，请重新输入";
+"SR_REGISTER_INPUT_PHONE"       = "请输入手机号";
+"SR_REGISTER_REINPUT_PHONE"     = "手机号码不正确，请重新输入";
+"SR_REGISTER_INPUT_CODE"        = "请输入验证码";
+"SR_REGISTER_USER_DETAIL_HEADER"= "火币网用户协议";
+
+"EXCEPTION_PASSWORDS_TOO_LONG"  = "密码长度不能超过20个字符";
+"EXCEPTION_MUST_SPECIFY_PASSWORD" = "请输入密码";
+"EXCEPTION_PASSWORDS_NOT_SAME" = "两次输入的密码不一致";
+"EXCEPTION_PASSWORDS_TOO_SIMPLE" = "密码强度过低，建议使用8位以上包含字母和数字的密码";
+
+"USER_GUIDE_OPEN_APP"                      = "开启火币";
+
+"SR_LowerGreaterThanUpper"                        = "价格下限不能超过价格上限";
+"SR_TransferList"                                 = "转账记录";
+"SR_TransferSuccess"                              = "转账成功";
+"SR_Back"                                         = "  返回";
+"SR_AC"                                           = "账户";
+"SR_Transfer"                                     = "转账";
+"SR_From"                                         = "从";
+"SR_To"                                           = "转账到";
+"SR_AccountTranfer"                               = "账户互转";
+
+
+"SR_UpperLimitPrice"                              = "输入价格上限";
+"SR_LowerLimitPrice"                              = "输入价格下限";
+
+"SR_BTCMarket"                                    = "BTC行情";
+"SR_LTCMarket"                                    = "LTC行情";
+"SR_Customize"                                    = "定制";
+"SR_ReferCoin"                                    = "参考币种";
+"SR_PriceNotice"                                  = "价格提醒";
+"SR_ChooseTradeCode"                              = "行情显示";
+"SR_TabTitleMarket2"                              = "  首页";
+"SR_TabTitleMarket"                               = "首页";
+"SR_TabTitleSpot"                                 = "交易";
+"SR_TabTitleFuture"                               = "资讯";
+"SR_TabTitleAccount"                              = "账户";
+
+"SR_CoinTypeBTC"                                  = "比特币";
+"SR_CoinTypeLTC"                                  = "莱特币";
+
+"SR_Volume"                                       = "成交量";
+"SR_AveragePrice"                                 = "成交均价";
+"SR_ProcessFee"                                   = "手续费";
+"SR_AmountCoin"                                   = "数量";
+"SR_AmountMoney"                                  = "金额";
+"SR_Price"                                        = "价格";
+"SR_PriceHigh"                                    = "最高";
+"SR_PriceLow"                                     = "最低";
+"SR_IncDecRatio"                                  = "涨跌幅";
+
+"SR_AmountAbbr"                                   = "额";
+"SR_HighAbbr"                                     = "高";
+"SR_LowAbbr"                                      = "低";
+"SR_RatioAbbr"                                    = "幅";
+"SR_MarketAmount"                                 = "量";
+
+"SR_OpenColon"                                    = "开:";
+"SR_HighColon"                                    = "高:";
+"SR_LowColon"                                     = "低:";
+"SR_CloseColon"                                   = "收:";
+
+
+"SR_KlineTimeline"                                = "分时";
+"SR_Kline1min"                                    = "1分";
+"SR_Kline5min"                                    = "5分";
+"SR_Kline30min"                                   = "30分";
+"SR_Kline60min"                                   = "60分";
+"SR_Kline1day"                                    = "日线";
+"SR_Kline1week"                                   = "周线";
+"SR_Landscape"                                    = "横屏";
+"SR_INDEX"                                        = "指标";
+"SR_MainChart"                                    = "主图";
+"SR_EXTRAChart"                                   = "副图";
+"SR_CloseChart"                                   = "关闭";
+
+"SR_TimeSecond"                                   = "秒";
+"SR_TimeMinute"                                   = "分";
+"SR_TimeHour"                                     = "时";
+"SR_TimeDay"                                      = "天";
+
+
+"SR_PullReleaseRefresh"                           = "松开刷新数据";
+"SR_PullReleaseMore"                              = "松开加载更多";
+"SR_PullDownRefresh"                              = "下拉刷新";
+"SR_PullUpLoad"                                   = "下拉刷新";
+"SR_LoadMore"                                     = "查看更多";
+"SR_NoEntrust"                                    = "您暂时没有未成交的委托单";
+"SR_NoHistory"                                    = "您暂时没有成交的委托单";
+"SR_Loading"                                      = "加载中...";
+"SR_NoMoreData"                                   = "没有啦";
+"SR_Bid"                                          = "买入";
+"SR_Ask"                                          = "卖出";
+"SR_BidAbbr"                                      = "买";
+"SR_AskAbbr"                                      = "卖";
+"SR_CurrentOrder"                                 = "当前委托";
+"SR_HistoryOrder"                                 = "历史委托";
+"SR_Available"                                    = "可用";
+"SR_OrderLimit"                                   = "限价";
+"SR_OrderMarket"                                  = "市价";
+"SR_OrderPrice"                                   = "价格";
+"SR_OrderVolume"                                  = "数量";
+"SR_OrderAmountMoney"                             = "交易额";
+"SR_OrderCancel"                                  = "撤单";
+
+"SR_ProcessPrice"                                = "成交价";
+"SR_ProcessFinish"                                = "已成交";
+"SR_ProcessPart"                                  = "部分成交";
+
+"SR_IncDecValue"                                  = "涨跌量";
+
+"SR_EntrustPrice"                                 = "委托价";
+"SR_EntrustVolume"                                = "委托量";
+"SR_EntrustAmount"                                = "委托额";
+"SR_RemainVolume"                                 = "剩余数量";
+
+"SR_EntrustAmountMoney"                           = "委托金额";
+"SR_RemainAmountMoney"                            = "剩余金额";
+"SR_ProcessedAmountMoney"                         = "成交额";
+
+"SR_ProcessedTotalAmountMoney"                    = "成交总额";
+
+"SR_ProcessedVolume"                              = "已成交";
+
+"SR_OrderCanceling"                               = "撤单中";
+"SR_OrderCanceled"                                = "已撤单";
+"SR_PriceAverage"                                 = "均价";
+"SR_OrderDetail"                                  = "详情";
+
+
+"SR_PriceNotNull"                                 = "价格不能为空";
+"SR_AmountOrVolumeNotNull"                        = "数量或者金额不能为空";
+
+"SR_QuoteBTC"                                     = "比特币行情";
+"SR_QuoteLTC"                                     = "莱特币行情";
+
+"SR_HoldPosition"                                 = "持有仓位";
+"SR_UnsettleOrder"                                = "已撤销";
+
+"SR_OpenPosition"                                 = "开仓";
+"SR_ClosePosition"                                = "平仓";
+
+"SR_OpenPositionConfirm"                          = "开仓确认";
+"SR_ClosePositionConfirm"                         = "平仓确认";
+
+"SR_LeverTimes"                                   = "倍";
+
+"SR_Margin"                                       = "保证金";
+
+"SR_OpenLongPositon"                              = "买多";
+"SR_OpenShortPositon"                             = "卖空";
+"SR_CloseLongPositon"                             = "平多";
+"SR_CloseShortPositon"                            = "平空";
+"SR_PriceIndex"                                   = "价格指数";
+"SR_DeliveryTime"                                 = "交割时间";
+"SR_HoldPositonAmountMoney"                       = "持仓金额";
+"SR_HoldAveragePrice"                             = "持仓成本";
+"SR_HoldProfitLoss"                               = "持仓盈亏";
+"SR_CloseProfitLoss"                              = "平仓盈亏";
+"SR_DynamicEquity"                                = "动态权益";
+"SR_StaticEquity"                                 = "静态权益";
+
+"SR_NoHoldPosition"                               = "您暂时没有持仓";
+"SR_NoUnsettleOrder"                              = "您暂时没有没有成交的委托单";
+"SR_OrderCancelSuccess"                           = "撤单成功";
+"SR_OrderCancelFailBrokeOrder"                    = "该笔委托是爆仓单，不允许撤销";
+
+"SR_FundTransfer"                                 = "资金转账";
+"SR_FundHistory"                                  = "资金流水";
+"SR_DeliveryHistory"                              = "结算记录";
+"SR_OrderHistory"                                 = "历史订单";
+"SR_FutureCongfig"                                = "期货设置";
+
+"SR_Contract"                                     = "合约";
+
+"SR_OpenPositionPrice"                            = "开仓价格";
+"SR_ClosePositionPrice"                           = "平仓价格";
+
+"SR_OpenPositionVolume"                           = "开仓数量";
+"SR_ClosePositionVolume"                          = "平仓数量";
+"SR_OpenPositionAmountMoney"                      = "开仓金额";
+"SR_ClosePositionAmountMoney"                     = "平仓金额";
+
+"SR_Commission"                                   = "佣金";
+
+"SR_FundInitial"                                  = "原有资产";
+"SR_FundChange"                                   = "增减资产";
+"SR_FundCurrent"                                  = "当前资产";
+"SR_FundRemark"                                   = "备注：";
+
+"SR_FullPosition"                                 = "全仓";
+"SR_PartPosition"                                 = "分仓";
+"SR_MergePosition"                                = "合仓";
+"SR_DividePosition"                               = "分仓";
+
+"SR_FullPositionDefault"                          = "全仓(无)";
+
+"SR_NoFundHistory"                                = "您暂时没有资金流水纪录";
+
+"SR_FundTransferInSuccess"                        = "转入资金成功";
+"SR_FundTransferOutSuccess"                       = "转出资金成功";
+
+
+"SR_MaxValueTransferIn"                           = "最大可转入资金";
+"SR_InputValueTransferIn"                         = "输入转入金额";
+"SR_MaxValueTransferOut"                          = "最大可转出资金";
+"SR_InputValueTransferOut"                        = "输入转出金额";
+
+
+"SR_InputValueTransferAmountMoney"                = "请输入转账金额";
+"SR_InputValueTransferVolume"                     = "请输入转账数量";
+"SR_NoRemainBalance"                              = "期货账户没有余额";
+
+"SR_TransferInFutureAccount"                      = "转入期货";
+"SR_TransferOutFutureAccount"                     = "转出期货";
+"SR_TransferConfirm"                              = "确认转账";
+
+"SR_FutureSettingTitle"                           = "期货设置";
+"SR_FutureTradeUnitChange"                        = "切换交易单位";
+"SR_TradeUnitMoney"                               = "金额";
+"SR_TradeUnitCoin"                                = "币";
+
+"SR_FutureSettlementTitle"                        = "结算记录";
+"SR_NoSettlementData"                             = "您暂时没有结算记录";
+
+
+"SR_SettleMoney"                                  = "亏损分摊(准备金分摊)";
+"SR_SettlePrice"                                  = "结算价格";
+
+"SR_NoHoldPositionData"                           = "您暂时没有持仓";
+"SR_DividePositionSuccess"                        = "分仓成功";
+"SR_DividePositionFail"                           = "分仓失败";
+"SR_MergePositionSuccess"                         = "合仓成功";
+"SR_MergePositionFail"                            = "合仓失败";
+"SR_OpenOrderSuccess"                             = "下单成功";
+
+"SR_PriceLiquidation"                             = "爆仓价";
+"SR_PriceEstimateLiquidation"                     = "预估爆仓价";
+
+"SR_ConfirmOk"                                    = "确定";
+"SR_ConfirmCancel"                                = "取消";
+
+
+"SR_AccountName"                                  = "账户名";
+"SR_AccountUID"                                   = "UID";
+
+"SR_AccountSpot"                                  = "现货账户";
+"SR_AccountFuture"                                = "期货账户";
+"SR_AccountYubibao"                               = "余币宝";
+
+"SR_AvailableValue"                               = "可用额度";
+"SR_FrozenValue"                                  = "冻结额度";
+"SR_LeverValue"                                   = "杠杆额度";
+
+"SR_IncomeDay1"                                   = "昨日收益";
+"SR_MyTotalBalance"                               = "我的总金额";
+"SR_MyTotalIncome"                                = "累计收益";
+"SR_IncomeWB"                                     = "一万币收益";
+"SR_IncomeDay7"                                   = "近7日收益";
+"SR_IncomeDay30"                                  = "近30日收益";
+
+"SR_SettingTitle"                                 = "设置";
+
+"SR_SecuritySettingTitle"                         = "安全设置";
+"SR_AppUpgradeTitle"                              = "版本更新";
+"SR_FeedbackTitle"                                = "意见反馈";
+"SR_AppAboutTitle"                                = "关于";
+
+
+"SR_GesturePasswordSwitch"                        = "手势密码";
+"SR_GesturePasswordChange"                        = "修改手势密码";
+"SR_FingerprintUnlock"                            = "指纹解锁";
+
+
+
+"SR_UserLoginTitle"                               = "火币用户登录";
+"SR_Username"                                     = "手机号/邮箱";
+"SR_Password"                                     = "火币登录密码";
+"SR_LoginConfirm"                                 = "登录";
+"SR_UserRegist"                                   = "注册";
+"SR_ForgetPassword"                               = "忘记密码";
+"SR_LoginRegister"                                = "登录/注册";
+
+
+"SR_InputTradePassword"                           = "输入资金密码";
+"SR_100IntegerTimes"                              = "平仓金额应当是100的整数倍";
+"SR_LoginStatusFailure"                           = "登录状态失效，请重新登录";
+"SR_TradePasswordNoNull"                          = "资金密码不能为空";
+"SR_OrderSuccess"                                 = "下单成功";
+"SR_CancelSuccess"                                = "取消成功";
+"SR_NetworkSpeedSlow"                             = "当前网络不佳，请稍后再试。";
+
+"SR_InputPrice"                                   = "请输入价格";
+"SR_PriceNoZero"                                  = "价格不能为0";
+"SR_InputAmountMoney"                             = "请输入金额";
+"SR_InputAmountCoin"                              = "请输入数量";
+"SR_EntrustAmountMoneyNoZero"                     = "委托金额不能为0";
+"SR_EntrustAmountCoinNoZero"                      = "委托数量不能为0";
+
+"SR_AvailableEntrustAmountMoneyIsZero"            = "可委托金额为0";
+"SR_AvailableEntrustAmountCoinIsZero"             = "可委托数量为0";
+
+"SR_RealEntrustAmountMoney"                       = "实际下单金额为";
+"SR_RealEntrustAmountCoin"                        = "实际下单数量为";
+
+"SR_LowestPriceClose"                             = "确定以最低现价平仓？";
+"SR_HighestPriceClose"                            = "确定以最高现价平仓？";
+
+"SR_CloseAllPositionByHighestPrice"               = "全部平仓将以最高限价挂入市场！";
+"SR_CloseAllPositionByLowestPrice"                = "全部平仓将以最低限价挂入市场！";
+
+"SR_ShiftToMoneySuccess"                          = "转入资金成功";
+"SR_RollOutMoneySuccess"                          = "转出资金成功";
+"SR_MaxShiftToMoney"                              = "最大可转入资金";
+"SR_MaxRollOutMoney"                              = "最大可转出资金";
+"SR_InputShiftToAmountMoney"                      = "输入转入金额";
+"SR_InputRollOutAmountMoney"                      = "输入转出金额";
+"SR_InputGesturePassword"                         = "请输入手势密码";
+"SR_InputUnlockPattern"                           = "绘制解锁图案";
+"SR_UnlockPatternRight"                           = "输入正确";
+"SR_InputUnlockPatternAgain"                      = "再次绘制解锁图案";
+"SR_InputUnlockPatternAfresh"                     = "重新绘制解锁图案";
+"SR_SaveGesturePassword"                          = "已保存手势密码";
+"SR_DrawInconformity"                             = "与上次绘制不一致，请重新绘制";
+"SR_GesturePasswordNotLong"                       = "手势密码不能少于6位";
+"SR_GestureSettingSuccess"                        = "设置成功";
+"SR_ForgetGesturePassword"                        = "忘记手势密码";
+"SR_OtherAccountLogin"                            = "用其他账号登录";
+"SR_TransferFund"                                 = "资金转账";
+"SR_Logout"                                       = "退出登录";
+"SR_CheckMore"                                    = "查看更多";
+"SR_Cancelling"                                   = "撤单中";
+"SR_Cancel"                                       = "撤单";
+"SR_MarketRefreshFrequency"                       = "行情涮洗频率";
+"SR_Feedback"                                     = "意见反馈";
+"SR_About"                                        = "关于";
+"SR_RealTimeFlowHuge"                             = "实时行情流量大于普通行情，建议在WIFI环境下使用";
+"SR_NotOpen"                                      = "为开启";
+"SR_Opened"                                       = "已开启";
+
+"SR_ScanToLogin"                                  = "扫码登录";
+"SR_ScanTip"                                      = "将二维码对准方框，即可自动扫描";
+"SR_ScanReturn"                                   = "返回";
+"SR_ScanFlashOn"                                  = "打开闪光灯";
+"SR_ScanFlashOff"                                 = "关闭闪光灯";
+
+"SR_CloseKeyBoard"                                = "收起键盘";
+"SR_Clear"                                        = "清空";
+"SR_News"                                         = "行情资讯";
+"SR_REGISTER"                                     = "注册";
+"SR_Delete"                                       = "删除";
+"SR_TradeMoneyAmount"                             = "交易额";
+"SR_TradeBtcAmount"                               = "比特币数量";
+"SR_TradeLtcAmount"                               = "莱特币数量";
+
+"SR_SpotCNY"                                      = "人民币";
+"SR_SpotUSD"                                      = "美元";
+"SR_SpotAvailable"                                = "可用";
+"SR_SpotBTC"                                      = "比特币";
+"SR_SpotLTC"                                      = "莱特币";
+"SR_SpotFreeze"                                   = "冻结";
+"SR_SpotLoan"                                     = "已借";
+"SR_SpotPry"                                      = "申请杠杆";
+"SR_SpotPryHeader"                                = "申请杠杆";
+"SR_SpotDepth"                                    = "深度";
+
+"SR_PleaseCheckNetStatus"                         = "请检查网络状况";
+"SR_AccountCannotBeNull"                          = "账户不能为空";
+"SR_PwdCannotBeNull"                              = "密码不能为空";
+"SR_AccountOrPwdWrong"                            = "账号或者密码错误";
+"SR_VerifyCodeWrong"                              = "验证码错误";
+"SR_LackOfToken"                                  = "缺少token";
+"SR_TokenInvalid"                                 = "token已失效";
+"SR_PleaseInputVerifyCode"                        = "请输入验证码";
+"SR_OtherMobileLoggedIn"                          = "该账号已在其他移动终端上登录";
+"SR_PleaseInputGoogleCode"                        = "请输入谷歌验证码";
+"SR_VerifyCodeWrongPleaseRetry"                   = "验证码输入错误，请重试";
+"SR_GoogleVerifyCodeCannotBeNull"                 = "Google验证码不能为空";
+"SR_PleaseInput6GACode"                           = "请输入6位Google验证码";
+
+"SR_RMBSpotAccount"                               = "人民币现货账户";
+"SR_USDSpotAccount"                               = "美元现货账户";
+"SR_TansWithinAccount"                            = "账户内互转";
+"SR_DepositWithdraw"                              = "充值提现";
+"SR_SettingTitle"                                 = "设置";
+"SR_Notice"                                       = "公告";
+"SR_FeedBack"                                     = "意见反馈";
+
+"SR_Name"                                         = "姓名";
+"SR_BindMoblie"                                   = "绑定手机";
+"SR_BindEmail"                                    = "绑定邮箱";
+"SR_RealName"                                     = "实名认证";
+"SR_ScoreLevel"                                   = "积分等级";
+"SR_AwardRecord"                                  = "获奖记录";
+"SR_ItemsTitle"                                   = "条";
+"SR_SecurityCenter"                               = "安全中心";
+"SR_SecuritySetting"                              = "安全设置";
+"SR_SecurityCategory"                             = "安全策略";
+"SR_BindGoogleGA"                                 = "绑定Google验证器";
+"SR_LoginPassword"                                = "登录密码";
+"SR_AssetPassword"                                = "资金密码";
+"SR_LoginVerify"                                  = "登录验证";
+"SR_DoubleVerify"                                 = "修改设置验证";
+"SR_WithdrawVerify"                               = "提现认证";
+"SR_TradeVerify"                                  = "交易验证";
+
+"SR_Deposit"                                      = "充值";
+"SR_Withdraw"                                     = "提现";
+"SR_Leverage"                                     = "杠杆";
+"SR_Security"                                     = "安全";
+"SR_System"                                       = "系统";
+"SR_Auth"                                         = "认证";
+
+"SR_AllMsg"                                       = "全部消息";
+"SR_WithdrawDepositMsg"                           = "充值提现";
+"SR_DepositMsg"                                   = "提现消息";
+"SR_LeverageMsg"                                  = "杠杆消息";
+"SR_SecurityMsg"                                  = "安全消息";
+"SR_SystemMsg"                                    = "系统消息";
+"SR_AuthMsg"                                      = "认证消息";
+
+"SR_MyMsg"                                        = "我的消息";
+"SR_High"                                         = "高";
+"SR_Low"                                          = "低";
+
+"SR_UserProtocol"                                 = "用户协议";
+"SR_WelcomePage"                                  = "欢迎页";
+"SR_AboutHuobi"                                   = "关于火币";
+
+
+"SR_UserCenter"                                   = "用户中心";
+
+"SR_AssetEquivalent"                              = "总资产折合（元）";
+"SR_AssetEquivalentTo"                            = "净资产折合";
+"SR_TotalAssetEquivalent"                         = "总资产折合";
+
+"SR_LeverageDescription"                          = "总资产/杠杆 = %@%%（爆仓值%d%%）";
+"SR_LeverageExplodePrice"                         = "爆仓价：%@";
+
+
+"SR_YouMayNeedToCreateAGesturePwd"                = "为火币APP创建一个屏幕解锁图案，这样他人";
+"SR_SoThatOthersCannotOpenApp"                    = "在借用你手机的时候无法打开火币APP";
+"SR_CreateNow"                                    = "立即创建";
+"SR_NotNow"                                       = "暂不创建";
+
+"SR_YouMayNeedToOpenTouchID"                      = "为火币APP开启指纹解锁，这样他人";
+"SR_OpenTouchIDNow"                               = "立即开启";
+"SR_NotNowOpenTouchID"                            = "暂不开启";
+"SR_OpenTouchIDSuccess"                           = "开启成功";
+
+"SR_WrongGestureAnd"                              = "密码错误，还有";
+"SR_TimesLeft"                                    = "次机会";
+
+
+"SR_HasBindGoogle"                                = "已绑定";
+"SR_HasNotBindGoogle"                             = "未绑定";
+"SR_NeedPassword"                                 = "通过\"登录密码\"";
+"SR_NeedGoogle"                                   = "通过\"Google验证器\"";
+"SR_NeedPasswordGoogle"                           = "通过\"密码+Google验证器\"";
+"SR_NeedNotAssetPwd"                              = "不验证\"资金密码\"";
+"SR_NeedAssetPwd"                                 = "验证\"资金密码\"";
+"SR_NeedNotAssetPwdWithinTwoHours"                = "两小时内不验证\"资金密码\"";
+"SR_SMSVerify"                                    = "通过\"手机短信\"";
+"SR_GoogleVerify"                                 = "通过\"Google验证器\"";
+"SR_SMSGoogleVerify"                              = "通过\"手机短信+Google验证器\"";
+
+"SR_UnVerified"                                   = "未认证";
+"SR_VerifyLevel"                                  = "认证等级";
+"SR_HasNotBind"                                   = "未绑定";
+
+"SR_Tip"                                          = "提示";
+"SR_ConfirmToLogOut"                              = "确认退出登录？";
+"SR_Yes"                                          = "是";
+"SR_No"                                           = "否";
+
+"SR_HuobiAccount"                                 = "火币账号";
+"SR_ProcessingRequest"                            = "正在请求中";
+"SR_WrongPassword"                                = "密码错误";
+
+"SR_BTCDeposit"                                   = "比特币充值";
+"SR_BTCWithdraw"                                  = "比特币提现";
+"SR_LTCDeposit"                                   = "莱特币充值";
+"SR_LTCWithdraw"                                  = "莱特币提现";
+"SR_RMBDeposit"                                   = "人民币充值";
+"SR_RMBWithdraw"                                  = "人民币提现";
+"SR_USDDeposit"                                   = "美元充值";
+"SR_USDWithdraw"                                  = "美元提现";
+"SR_WithdrawPackage"                              = "提现套餐";
+"SR_WithdrawAccountManage"                        = "提现账号管理";
+
+"SR_RealNameAuthentication"                       = "实名认证";
+"SR_AuthenticationInfo"                           = "认证信息";
+
+
+"SR_PleaseQuit"                                   = "请手动退出";
+"SR_UpdateImmediately"                            = "立即升级";
+"SR_LaterOn"                                      = "稍后再说";
+"SR_CheckDetail"                                  = "查看详情";
+"SR_LoginTimeOutLogAgain"                         = "登录状态失效，请重新登录";
+"SR_Should100Times"                               = "金额应当是100的整数倍";
+
+"SR_2BitAfterPoint"                               = "小数点后不能超过2位";
+"SR_4BitAfterPoint"                               = "小数点后不能超过4位";
+"SR_8BitBeforePoint"                              = "小数点前不能超过8位";
+
+"SR_NotOpen"                                      = "未开启";
+"SR_Opened"                                       = "已开启";
+"SR_CoinTypeCny"                                  = "人民币";
+"SR_CoinTypeUsd"                                  = "美元";
+
+"SR_C"                                            = "C级";
+"SR_U"                                            = "U级";
+"SR_SuitForMostMainLandChinese"                   = "适用于大多数中国大陆用户";
+"SR_SuitForMostAbroad"                            = "适用于大多数海外用户";
+"SR_NoData"                                       = "当前没有数据";
+"SR_DoNotKnow"                                    = "未知";
+
+"SR_ClickToAuth"                                  = "点击认证";
+"SR_TakeAPicture"                                 = "拍照";
+"SR_ChooseFromPhotos"                             = "从手机相册选择";
+"SR_CancelAction"                                 = "取消";
+"SR_CredentialType"                               = "证件类型";
+"SR_CredentialNum"                                = "证件号码";
+"SR_CredentialIssuDate"                           = "证件颁发日期";
+"SR_CredentialInvaliDate"                         = "证件过期日期";
+"SR_CredentialPictureFront"                       = "证件正面照片";
+"SR_CredentialPictureBack"                        = "证件反面照片";
+"SR_CredentialPictureHold"                        = "手持证件照片";
+"SR_CredentialPictureTranslated"                  = "证件翻译照";
+
+"SR_CredentialTranslatedMostTen"                  = "证件翻译照最多可添加十张";
+"SR_SubmitPromise"                                = "我承诺提交的信息属于本人所有，不存在盗用他人证件的行为。";
+
+"SR_FirstName"                                    = "姓氏";
+"SR_LastName"                                     = "名字";
+"SR_BirthDate"                                    = "出生日期";
+"SR_CountryRegion"                                = "国家/地区";
+"SR_Address"                                      = "地址";
+"SR_City"                                         = "城市";
+"SR_ResidenceProof"                               = "居住证明照";
+
+"SR_URAuthingC"                                   = "您正在认证的用户等级为C";
+"SR_URAuthingU"                                   = "您正在认证的用户等级为U";
+"SR_CredentialAuth"                               = "证件认证";
+"SR_RealNameCannotBeChangedAfterAuth"             = "真实的姓名认证后将不能更改，款项只能提现到实名认证同名银行卡中，请如实填写。";
+"SR_ResidenceAuth"                                = "居住认证";
+
+"SR_AuthDescription"                              = "完成证件审核、银行卡认证后将提升您的认证等级到C2，并提高您的相应权益。该认证不是必须通过，不通过高级认证不会影响您的正常使用。";
+"SR_IfWrongContact"                               = "如您之前的信息有误，请联系我们的客服电话：4000-600-888 或 客服QQ4008558511";
+"SR_AuthLevelAndRight"                            = "认证等级及对应权益";
+"SR_YourPictureCheckFailed"                       = "您提交的证件照不符合要求。请重新修改并提交审核。";
+"SR_ReSubmit"                                     = "重新提交";
+"SR_CheckingPleaseWait"                           = "正在进行审核，请耐心等待";
+"SR_Checking"                                     = "正在审核";
+"SR_Submit"                                       = "提交";
+
+"SR_IdentityCard"                                 = "身份证";
+"SR_Passport"                                     = "护照";
+"SR_DriverLicence"                                = "驾照";
+
+"SR_ChooseDate"                                   = "选择日期";
+"SR_Upload"                                       = "上传";
+"SR_Uploaded"                                     = "已上传";
+"SR_Optional"                                     = "（可选）";
+"SR_PictureUploaded"                              = "照片上传完成";
+"SR_PictureUploadFail"                            = "上传失败";
+"SR_HasUploadNum"                                 = "已上传%d张";
+
+"SR_BankCardAuth"                                 = "银行卡认证";
+"SR_CredentialCheck"                              = "证件审核";
+
+"SR_AlreadyAuthed"                                = "已认证";
+"SR_AlreadyChecked"                               = "已审核";
+"SR_NotAuthed"                                    = "未认证";
+"SR_FailedCheck"                                  = "审核不通过";
+
+"SR_PleasePick"                                   = "请选择";
+"SR_PleaseUpload"                                 = "请上传";
+"SR_PleaseFill"                                   = "请填写";
+
+
+"SR_GetSpotGoodsListFailed"                       = "现货当前委托获取失败";
+"SR_GetSpotGoodsHistoryListFailed"                = "现货历史委托获取失败";
+"SR_OderTimeout"                                  = "下单超时";
+"SR_GetDetailFailed"                              = "获取详情失败！";
+"SR_SpotGoodsCancelOrderFailed"                   = "现货委托撤单失败！";
+"SR_ServerError"                                  = "服务器错误";
+"SR_BTCMarketQuickLook"                           = "比特币行情";
+"SR_LTCMarketQuickLook"                           = "莱特币行情";
+"SR_ShowAll"                                      = "显示全部";
+
+"SR_AHundredMillion"                              = "亿";
+"SR_MillionsAndMillions"                          = "千万";
+"SR_TenThousand"                                  = "万";
+
+"SR_AvailableBTC"                                 = "可转余额";
+"SR_AssetPasswordCannotSet"                       = "需要先绑定手机或Google验证码后才能设置资金密码！";
+
+"SR_PassPortSignPage"                             = "签名页照片";
+"SR_PassPortInfoPage"                             = "信息页照片";
+
+"SR_CNYSpot"                                      = "人民币现货账户";
+"SR_USDSpot"                                      = "美元现货账户";
+
+"SR_ChooseAccount"                                = "选择账户";
+
+"SR_Set"                                          = "设置";
+"SR_Unset"                                        = "未设置";
+
+"SR_ComingSoon"                                   = "该功能暂未提供\n如需使用请访问huobi.com";
+
+"SR_Liquidating"                                  = "正在爆仓";
+"SR_CannotLiquidate"                              = "不会爆仓";
+
+"SR_UpdatedMinuteAgo"                             = "%ld分钟前刷新";
+"SR_UpdatedMinutesAgo"                            = "%ld分钟前刷新";
+"SR_UpdatedHourAgo"                               = "%ld小时前刷新";
+"SR_UpdatedHoursAgo"                              = "%ld小时前刷新";
+"SR_UpdatedDayAgo"                                = "%ld天前刷新";
+"SR_UpdatedDaysAgo"                               = "%ld天前刷新";
+"SR_NoticePriceCouldNotZero"                      = "提醒价格不能为0";
+
+"SR_AlreadyLatesdVersion"                         = "已是最新版本";
+"SR_HasNewVersion"                                = "有新版本";
+
+"SR_Return"                                       = "返回";
+"SR_PullUptoLoadMore"                             = "上拉加载更多";
+
+"SR_TradeGoogleCannotUnbind"                      = "需要先绑定手机后才能解除绑定Google";
+
+"SR_DepositWithdrawTitle"                         = "充值提现";
+"SR_TransferAmountCouldNotZero"                   = "转账额度不能为0";
+
+"SR_ReferCurrency"                                = "参考币种";
+"SR_BackCustomize"                                = "  定制";
+
+
+"SR_Close"                                        = "关闭";
+"SR_Reset"                                        = "重置";
+
+"SR_MarketRefreshRate"                            = "行情刷新频率";
+"SR_NightMode"                                    = "夜间模式";
+"SR_MarketVolume"                                 = "量";
+
+"SR_ShareToFriends"                               = "推荐给朋友";
+"SR_ShareTitle"                                   = "交易比特币，用火币APP";
+"SR_ShareContent"                                 = "随时随地交易比特币和莱特币，24小时替你盯盘，替你赚钱";
+
+
+"SR_RealCostMore"                                 = "实时行情流量大于普通行情，";
+"SR_AdviceOnlyFastInWifi"                         = "建议在WiFi下使用";
+"SR_AlwaysNormalFrequency"                        = "始终普通行情";
+"SR_AlwaysFastFrequency"                          = "始终实时行情";
+"SR_OnlyFastInWifi"                               = "仅在Wifi下实时行情";
+
+"SR_ShareSucess"                                  = "分享成功";
+"SR_ShareFail"                                    = "木有分享出去";
+
+"SR_TurnOffGesturePassword"                       = "需关闭手势密码后才能开启";
+"SR_TurnOffFingerprintUnlock"                     = "需关闭指纹解锁后才能开启";
+
+"SR_TapVerifyFingerToUnlock"                      = "点击进行指纹解锁";
+"SR_LoginWithAccount"                             = "使用账号登录";
+
+"SR_NoFingerprintPassword"                        ="您尚未设置指纹密码，请在手机系统“设置--Touch ID与密码”中添加您的指纹";
+"SR_NoPhoneUnlockPassword"                        ="您尚未设置手机解锁密码，请在手机系统“设置--Touch ID与密码”中设置开启密码";
+
+"SR_FingerprintUnavailable"                       = "您的指纹信息已发生变更，请重新设置后再次尝试";
